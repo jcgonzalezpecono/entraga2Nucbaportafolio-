@@ -6,57 +6,258 @@
     margin: 0;
 }
 
-header{
-    background-color: rgb(4, 13, 82,0.5);
+
+body{
+    background-color: rgb(0, 0, 0);
 }
 
-.icono{
-    display: inline;
-    width: 50px;
-    margin: 10px;
+/*----------------------------------- header ----------------------------*/ 
+
+header{
+    width: 100%;
+    height: 60px;
+    background:linear-gradient(to top, rgba(59,59,59,1) 0%, rgba(37,37,37,0.9780287114845938) 8%, rgba(0,0,0,1) 43%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 0px 20px; 
+
 }
 
 .titulo{
-    display: inline;
-    color: rgb(255, 255, 255);
-}
-
-.caja-menu{
-    background-color: rgb(63, 2, 2,);
-    width: 100%;
-    height: 50px;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content:flex-end;    
-    padding-right: 20px;
-    padding-left: 5px;
-    
 }
 
-.lista-menu{
-    margin: 50px;
-    list-style: none;
+
+header img{
+    width: 60px;
+    height: auto;
+
+}
+
+header h2{    
+
+    color: aliceblue; 
+}
+
+
+nav ul{
     display: flex;
-    gap: 30px;
-    justify-content:flex-end;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;    
+    list-style: none;
+    font-size: 25px;
     
+   
 }
 
 .letra-menu{
-    font-size: medium;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(253, 243, 243);
-}
+    text-decoration: none;
+    color: aliceblue;
 
+}
 .compras{
-    display: inline;
     width: 20px;
-    height: 20px;
-      
-}
-
-
-.stylepage{
-    background-color: rgb(0, 0, 0);
+    height: auto;
     
 }
+
+/*------------- section principal   --------------*/ 
+
+.principal{
+    display: flex;
+    max-width: 1200px; 
+    flex-direction: row;   
+    justify-content: center;
+    margin: 100px 30px 120px 30px; /*--- arr-der-ab--iz---*/
+    gap:30px,
+    
+
+}
+
+
+.info-principal{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    gap:30px    
+    
+}
+
+
+.info-principal h2{
+    width: 450px;
+    display: flex;
+    color: aliceblue;
+    font-size: 40px;
+    
+
+}
+
+.info-principal p{
+    width: 400px;
+    color: aliceblue;
+    font-size: 20px;
+  
+
+}
+
+.info-principal a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 18px;
+    text-decoration:solid;
+    font-weight: 800;
+    max-width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+
+/*-----card ----*/
+
+.card-principal{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding: 20px;
+    background-color: rgba(109, 105, 105, 0.5);
+    border-radius: 15px;
+    gap:20px;
+}
+
+.info-card-prin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: aliceblue;
+    font-weight: 800;
+    align-items: center;
+
+}
+
+
+
+.num{
+    display: flex;
+    background-color:blue;
+    align-content: center;
+    justify-content: center;
+    border-radius:5px ;
+    width: 30px;
+    height: 20px;
+    font-weight: 800;
+
+}
+
+
+.creador-card-prin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+}
+    
+.creador{
+    display: flex;
+    flex-direction: row;
+}
+
+.creador-info p { 
+    color: rgb(155, 152, 152);    
+}
+
+.precio p  { 
+    color: rgb(155, 152, 152);
+}
+.creador-info span { 
+    color:aliceblue;
+    font-weight: 800;
+}
+
+.precio span  { 
+    color: aliceblue;
+    font-weight: 800;
+}
+
+/*----------section secundaria ------*/ 
+
+
+.secundaria{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-items: center;
+    margin: 50px;
+    
+}
+
+.letra-sec{
+    display: flex;
+    justify-content: center;
+       
+}
+
+.letra-sec h2{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.box-divs-sec{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.box-info-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(109, 105, 105, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    width:300px;
+    height: 320px;
+    margin: 50px 10px;
+    gap:20px;
+    text-align: center;
+
+
+}
+
+
+.box-info-sec img{
+    width: 80px;
+    height: auto;
+}
+
+
+.box-info-sec h3{
+    color: aliceblue;
+    font-weight:900;   
+    font-size: 21px;
+    
+}
+
+.box-info-sec p{
+    display: flex;    
+    color:rgb(209, 201, 201);
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 23px;
+}
+
