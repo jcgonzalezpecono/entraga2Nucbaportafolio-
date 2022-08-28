@@ -261,3 +261,120 @@ nav ul{
     line-height: 23px;
 }
 
+
+/* ----------------section contacto----------------*/
+
+
+.contact {
+    width: 1200px;
+    margin:50px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+.info-contact{
+    display: flex;
+    width: 950px;
+    height: 350px;
+    background-color: rgba(109, 105, 105, 0.5);
+    border-radius: 12px;
+
+}
+
+
+.contact h1{
+    color: aliceblue;
+    font-weight: 800;
+}
+
+.sucursales{
+    display: flex;
+    gap: 50px;
+    margin:40px;
+  
+
+    
+}
+
+.surcursal{
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    justify-content: center;
+
+
+}
+
+.surcursal h3{
+    color: aliceblue;
+    font-size: 20px;
+
+}
+
+.datos{
+    display: flex;
+    gap: 25px;
+    margin-top: 40px;
+    align-items: center;
+
+
+}
+
+.datos img{
+    width: 30px;
+    height: 30px;
+}
+
+.datos p{
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.objeto-sucursal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+
+}
+
+.redes img{
+    width: 40px;
+    height: 40px;
+
+}
+
+
+/*------------------footer ------*/ 
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 100px;
+
+}
+footer img{
+    width: 100px;
+    height: 80px;
+
+}
+footer p{
+    color: aliceblue;
+}
